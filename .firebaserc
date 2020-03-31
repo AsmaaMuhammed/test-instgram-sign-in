@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "instgram-sign-in": "pidgeco-pidge2"
+  },
+  "targets": {
+    "pidgeco-pidge2": {
+      "hosting": {
+        "instgram": [
+          "test-instgram-signin"
+        ]
+      }
+    }
+  }
+}

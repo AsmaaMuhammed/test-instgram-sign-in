@@ -1,0 +1,82 @@
+[debug] [2020-03-11T03:40:10.269Z] ----------------------------------------------------------------------
+[debug] [2020-03-11T03:40:10.274Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --port 5006
+[debug] [2020-03-11T03:40:10.275Z] CLI Version:   7.14.0
+[debug] [2020-03-11T03:40:10.275Z] Platform:      linux
+[debug] [2020-03-11T03:40:10.275Z] Node Version:  v10.15.3
+[debug] [2020-03-11T03:40:10.276Z] Time:          Wed Mar 11 2020 05:40:10 GMT+0200 (Eastern European Standard Time)
+[debug] [2020-03-11T03:40:10.276Z] ----------------------------------------------------------------------
+[debug] [2020-03-11T03:40:10.276Z] 
+[debug] [2020-03-11T03:40:10.379Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-11T03:40:10.380Z] > authorizing via signed-in user
+[debug] [2020-03-11T03:40:10.381Z] [iam] checking project pidgeco-pidge2 for permissions ["firebase.projects.get"]
+[debug] [2020-03-11T03:40:10.385Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/pidgeco-pidge2:testIamPermissions  
+
+[debug] [2020-03-11T03:40:11.698Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-11T03:40:11.706Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/pidgeco-pidge2  
+ 
+[debug] [2020-03-11T03:40:12.377Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/asmaa/Data/Pidge/Firebase/Pidge2/test-instgram-sign-in'...
+[info] 
+[debug] [2020-03-11T03:40:12.399Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/pidgeco-pidge2/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "10"
+[info] ✔  functions: functions emulator started at http://localhost:5007
+[debug] [2020-03-11T03:40:13.353Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/home/asmaa/Data/Pidge/Firebase/Pidge2/test-instgram-sign-in/functions" for Cloud Functions...
+[debug] [2020-03-11T03:40:13.559Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-11T03:40:13.559Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-11T03:40:13.559Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-11T03:40:13.560Z] [worker-~diagnostic~-4998dc05-81df-4a0f-b57d-eda169a2fc17]: Assigning socketPath: /tmp/fire_emu_11498.sock
+[debug] [2020-03-11T03:40:13.561Z] [worker-~diagnostic~-4998dc05-81df-4a0f-b57d-eda169a2fc17]: BUSY
+[info] i  hosting[instgram]: Serving hosting files from: public
+[info] ✔  hosting[instgram]: Local server: http://localhost:5006
+[debug] [2020-03-11T03:40:13.828Z] [runtime-status] [11498] Functions runtime initialized. {"cwd":"/home/asmaa/Data/Pidge/Firebase/Pidge2/test-instgram-sign-in/functions","node_version":"10.15.3"}
+[debug] [2020-03-11T03:40:13.830Z] [runtime-status] [11498] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-11T03:40:13.832Z] [runtime-status] [11498] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/asmaa/Data/Pidge/Firebase/Pidge2/test-instgram-sign-in/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-11T03:40:13.835Z] [runtime-status] [11498] Resolved module firebase-functions {"declared":true,"installed":true,"version":"2.3.1","resolution":"/home/asmaa/Data/Pidge/Firebase/Pidge2/test-instgram-sign-in/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-functions" to be version >3.0.0 so your version is too old. You can probably fix this by running "npm install firebase-functions@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-03-11T03:40:13.850Z] [worker-~diagnostic~-4998dc05-81df-4a0f-b57d-eda169a2fc17]: exited
+[debug] [2020-03-11T03:40:13.850Z] [worker-~diagnostic~-4998dc05-81df-4a0f-b57d-eda169a2fc17]: FINISHED
+[debug] [2020-03-11T03:41:42.122Z] ----------------------------------------------------------------------
+[debug] [2020-03-11T03:41:42.123Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --port 5006
+[debug] [2020-03-11T03:41:42.123Z] CLI Version:   7.14.0
+[debug] [2020-03-11T03:41:42.123Z] Platform:      linux
+[debug] [2020-03-11T03:41:42.123Z] Node Version:  v10.15.3
+[debug] [2020-03-11T03:41:42.124Z] Time:          Wed Mar 11 2020 05:41:42 GMT+0200 (Eastern European Standard Time)
+[debug] [2020-03-11T03:41:42.124Z] ----------------------------------------------------------------------
+[debug] [2020-03-11T03:41:42.124Z] 
+[debug] [2020-03-11T03:41:42.130Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-11T03:41:42.130Z] > authorizing via signed-in user
+[debug] [2020-03-11T03:41:42.130Z] [iam] checking project pidgeco-pidge2 for permissions ["firebase.projects.get"]
+[debug] [2020-03-11T03:41:42.131Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/pidgeco-pidge2:testIamPermissions  
+
+[debug] [2020-03-11T03:41:43.281Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-11T03:41:43.288Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/pidgeco-pidge2  
+ 
+[debug] [2020-03-11T03:41:43.839Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/asmaa/Data/Pidge/Firebase/Pidge2/test-instgram-sign-in'...
+[info] 
+[debug] [2020-03-11T03:41:43.855Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/pidgeco-pidge2/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "10"
+[info] ✔  functions: functions emulator started at http://localhost:5007
+[debug] [2020-03-11T03:41:44.649Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/home/asmaa/Data/Pidge/Firebase/Pidge2/test-instgram-sign-in/functions" for Cloud Functions...
+[debug] [2020-03-11T03:41:44.833Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-11T03:41:44.833Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-11T03:41:44.834Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-11T03:41:44.834Z] [worker-~diagnostic~-3d0cfdf6-e4cc-4586-a4a9-96b2241a2181]: Assigning socketPath: /tmp/fire_emu_11602.sock
+[debug] [2020-03-11T03:41:44.834Z] [worker-~diagnostic~-3d0cfdf6-e4cc-4586-a4a9-96b2241a2181]: BUSY
+[info] i  hosting[instgram]: Serving hosting files from: public
+[info] ✔  hosting[instgram]: Local server: http://localhost:5006
+[debug] [2020-03-11T03:41:45.114Z] [runtime-status] [11602] Functions runtime initialized. {"cwd":"/home/asmaa/Data/Pidge/Firebase/Pidge2/test-instgram-sign-in/functions","node_version":"10.15.3"}
+[debug] [2020-03-11T03:41:45.116Z] [runtime-status] [11602] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-11T03:41:45.119Z] [runtime-status] [11602] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"/home/asmaa/Data/Pidge/Firebase/Pidge2/test-instgram-sign-in/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-11T03:41:45.120Z] [runtime-status] [11602] Resolved module firebase-functions {"declared":true,"installed":true,"version":"2.3.1","resolution":"/home/asmaa/Data/Pidge/Firebase/Pidge2/test-instgram-sign-in/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-functions" to be version >3.0.0 so your version is too old. You can probably fix this by running "npm install firebase-functions@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-03-11T03:41:45.135Z] [worker-~diagnostic~-3d0cfdf6-e4cc-4586-a4a9-96b2241a2181]: exited
+[debug] [2020-03-11T03:41:45.135Z] [worker-~diagnostic~-3d0cfdf6-e4cc-4586-a4a9-96b2241a2181]: FINISHED
